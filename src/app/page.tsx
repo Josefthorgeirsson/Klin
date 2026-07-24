@@ -9,7 +9,7 @@ import { Wordmark } from "@/components/site/wordmark";
 const SERVICES = [
   {
     icon: HomeIcon,
-    title: "Heimili",
+    title: "Heimili og húsfélög",
     description: "Regluleg þrif og djúphreinsun fyrir heimilið þitt.",
   },
   {
@@ -32,7 +32,7 @@ export default function HomePage() {
         <Container className="grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
           <div>
             <h1 className="font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl lg:text-6xl">
-              Hreint er okkar hjartans mál
+              Klín er leiðandi fyrirtæki á Íslandi í þrifum
             </h1>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-klin-ink/70">
               Ræstingarþjónusta fyrir heimili, fyrirtæki og stofnanir um allt
@@ -56,11 +56,7 @@ export default function HomePage() {
       {/* Services */}
       <section className="py-24">
         <Container>
-          <h2 className="text-center font-heading text-3xl font-bold text-klin-ink sm:text-4xl">
-            Það sem við bjóðum
-          </h2>
-
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-3">
             {SERVICES.map((service) => (
               <Card key={service.title} className="flex flex-col items-start">
                 <IconBadge icon={service.icon} />

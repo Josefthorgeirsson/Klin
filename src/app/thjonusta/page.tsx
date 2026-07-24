@@ -16,12 +16,14 @@ const CATEGORIES = [
   {
     id: "heimili",
     icon: HomeIcon,
-    title: "Heimilisþrif",
+    title: "Heimili og húsfélög",
+    description: "Regluleg þrif og djúphreinsun fyrir heimilið þitt.",
     items: [
       "Regluleg þrif",
       "Djúphreinsun",
       "Flutningsþrif",
       "Gluggaþvottur",
+      "Stigagangar og sameignir fyrir húsfélög",
     ],
   },
   {
@@ -51,14 +53,6 @@ const CATEGORIES = [
 export default function ServicesPage() {
   return (
     <>
-      <section className="bg-klin-pink-tint py-20">
-        <Container>
-          <h1 className="max-w-xl font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl">
-            Það sem við bjóðum
-          </h1>
-        </Container>
-      </section>
-
       <section className="py-20">
         <Container>
           <div className="grid gap-6 md:grid-cols-3">
@@ -68,6 +62,11 @@ export default function ServicesPage() {
                 <h2 className="mt-6 font-heading text-xl font-bold text-klin-ink">
                   {category.title}
                 </h2>
+                {category.description && (
+                  <p className="mt-2 text-sm leading-relaxed text-klin-ink/70">
+                    {category.description}
+                  </p>
+                )}
                 <ul className="mt-4 space-y-2">
                   {category.items.map((item) => (
                     <li key={item} className="flex items-start gap-2">
