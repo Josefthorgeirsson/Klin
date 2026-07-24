@@ -24,8 +24,11 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <h3 className="font-heading text-sm font-bold uppercase tracking-wide text-klin-ink">
-              Vafur
+            <h3
+              aria-hidden="true"
+              className="font-heading text-sm font-bold uppercase tracking-wide text-klin-ink"
+            >
+              &nbsp;
             </h3>
             <ul className="mt-4 space-y-3">
               {NAV_LINKS.map((link) => (
