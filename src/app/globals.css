@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fffbfd;
+  --foreground: #241019;
+
+  --klin-pink: #d1116f;
+  --klin-pink-bright: #f2168a;
+  --klin-pink-dark: #950c53;
+  --klin-pink-soft: #fbe4f0;
+  --klin-pink-tint: #fff3f8;
+  --klin-ink: #241019;
+  --klin-cream: #fffbfd;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-klin-pink: var(--klin-pink);
+  --color-klin-pink-bright: var(--klin-pink-bright);
+  --color-klin-pink-dark: var(--klin-pink-dark);
+  --color-klin-pink-soft: var(--klin-pink-soft);
+  --color-klin-pink-tint: var(--klin-pink-tint);
+  --color-klin-ink: var(--klin-ink);
+  --color-klin-cream: var(--klin-cream);
+
+  --font-display: var(--font-boldonse);
+  --font-heading: var(--font-bricolage);
+  --font-sans: var(--font-instrument);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
