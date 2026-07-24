@@ -5,7 +5,6 @@ import { Logo } from "@/components/site/logo";
 const NAV_LINKS = [
   { href: "/", label: "Heim" },
   { href: "/thjonusta", label: "Þjónusta" },
-  { href: "/um-okkur", label: "Um okkur" },
   { href: "/hafa-samband", label: "Hafa samband" },
 ];
 
@@ -17,9 +16,8 @@ export function SiteFooter() {
           <div>
             <Logo />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-klin-ink/70">
-              Klín sér um þrifin svo þú getir einbeitt þér að því sem
-              skiptir máli. Fagleg, glaðleg og áreiðanleg ræstingarþjónusta
-              fyrir heimili, fyrirtæki og stofnanir.
+              Ræstingarþjónusta fyrir heimili, fyrirtæki og stofnanir á
+              Suðurlandi.
             </p>
           </div>
 

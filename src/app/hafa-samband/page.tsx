@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/site/container";
 import { IconBadge } from "@/components/site/icon-badge";
-import { ProcessSteps } from "@/components/site/process-steps";
 
 export const metadata: Metadata = {
   title: "Hafa samband – Klín",
@@ -40,11 +39,10 @@ export default function ContactPage() {
               Hafa samband
             </span>
             <h1 className="mt-6 font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl">
-              Segðu okkur frá verkefninu þínu
+              Fáðu tilboð
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-klin-ink/70">
-              Hringdu eða sendu okkur línu — við svörum yfirleitt samdægurs
-              og skilum skýru tilboði fljótt og vel.
+              Hringdu eða sendu okkur línu — við svörum samdægurs.
             </p>
           </div>
         </Container>
@@ -103,17 +101,6 @@ export default function ContactPage() {
                 </p>
               </Card>
             ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="bg-klin-pink-tint py-20">
-        <Container>
-          <h2 className="text-center font-heading text-3xl font-bold text-klin-ink sm:text-4xl">
-            Hvað gerist næst?
-          </h2>
-          <div className="mt-14">
-            <ProcessSteps />
           </div>
         </Container>
       </section>

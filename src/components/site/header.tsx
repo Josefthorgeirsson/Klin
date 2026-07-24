@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
 const NAV_LINKS = [
   { href: "/", label: "Heim" },
   { href: "/thjonusta", label: "Þjónusta" },
-  { href: "/um-okkur", label: "Um okkur" },
   { href: "/hafa-samband", label: "Hafa samband" },
 ];
 
