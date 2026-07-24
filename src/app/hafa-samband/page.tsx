@@ -9,14 +9,14 @@ import { ProcessSteps } from "@/components/site/process-steps";
 export const metadata: Metadata = {
   title: "Hafa samband – Klín",
   description:
-    "Hafðu samband við Klín í síma 555 5522 eða á skrubb@klin.is og fáðu tilboð í ræstingu heimilis, fyrirtækis eða stofnunar.",
+    "Hafðu samband við Klín í síma 555 5522 eða á klin@klin.is og fáðu tilboð í ræstingu heimilis, fyrirtækis eða stofnunar. Þjónustusvæði: Suðurland.",
 };
 
 const INFO = [
   {
     icon: MapPin,
     title: "Þjónustusvæði",
-    description: "Höfuðborgarsvæðið allt",
+    description: "Suðurland",
   },
   {
     icon: Clock,
@@ -26,7 +26,7 @@ const INFO = [
   {
     icon: Clock,
     title: "Viðbragðstími",
-    description: "Svörum fyrirspurnum samdægurs á virkum dögum",
+    description: "Svörum öllum fyrirspurnum samdægurs",
   },
 ];
 
@@ -78,13 +78,13 @@ export default function ContactPage() {
                 tilboði.
               </p>
               <a
-                href="mailto:skrubb@klin.is"
+                href="mailto:klin@klin.is"
                 className="mt-6 font-display text-2xl tracking-tight text-klin-pink break-all"
               >
-                skrubb@klin.is
+                klin@klin.is
               </a>
               <Button asChild className="mt-8">
-                <a href="mailto:skrubb@klin.is?subject=Fyrirspurn%20um%20þrif">
+                <a href="mailto:klin@klin.is?subject=Fyrirspurn%20um%20þrif">
                   Senda tölvupóst
                 </a>
               </Button>

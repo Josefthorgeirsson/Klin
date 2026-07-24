@@ -28,6 +28,7 @@
   --font-display: var(--font-boldonse);
   --font-heading: var(--font-bricolage);
   --font-sans: var(--font-instrument);
+  --font-logo: var(--font-lora);
 }
 
 body {

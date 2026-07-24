@@ -73,9 +73,8 @@ export default function AboutPage() {
               </p>
               <p>
                 Í dag þjónustar Klín heimili, fyrirtæki og stofnanir um allt
-                höfuðborgarsvæðið, alltaf með sama markmið að leiðarljósi:
-                að skila hreinu rými og góðri upplifun, í hvert einasta
-                skipti.
+                Suðurland, alltaf með sama markmið að leiðarljósi: að skila
+                hreinu rými og góðri upplifun, í hvert einasta skipti.
               </p>
             </div>
 

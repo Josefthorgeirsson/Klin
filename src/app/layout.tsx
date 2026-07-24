@@ -30,10 +30,19 @@ const instrument = localFont({
   display: "swap",
 });
 
+const lora = localFont({
+  src: [
+    { path: "./fonts/Lora-Regular.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/Lora-Bold.ttf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-lora",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Klín – Allhliða ræstingarþjónusta",
   description:
-    "Klín sér um þrif fyrir heimili, fyrirtæki og stofnanir á höfuðborgarsvæðinu. Áreiðanleg, glaðleg og fagleg ræstingarþjónusta.",
+    "Klín sér um þrif fyrir heimili, fyrirtæki og stofnanir á Suðurlandi. Áreiðanleg, glaðleg og fagleg ræstingarþjónusta.",
 };
 
 export default function RootLayout({
@@ -44,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="is"
-      className={`${boldonse.variable} ${bricolage.variable} ${instrument.variable} h-full antialiased`}
+      className={`${boldonse.variable} ${bricolage.variable} ${instrument.variable} ${lora.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <SiteHeader />

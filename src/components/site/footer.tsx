@@ -25,7 +25,7 @@ export function SiteFooter() {
 
           <div>
             <h3 className="font-heading text-sm font-bold uppercase tracking-wide text-klin-ink">
-              Flakk
+              Vafur
             </h3>
             <ul className="mt-4 space-y-3">
               {NAV_LINKS.map((link) => (
@@ -57,16 +57,16 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="mailto:skrubb@klin.is"
+                  href="mailto:klin@klin.is"
                   className="flex items-center gap-2 transition-colors hover:text-klin-pink"
                 >
                   <Mail className="h-4 w-4 shrink-0" aria-hidden="true" />
-                  skrubb@klin.is
+                  klin@klin.is
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 shrink-0" aria-hidden="true" />
-                Höfuðborgarsvæðið
+                Suðurland
               </li>
             </ul>
           </div>

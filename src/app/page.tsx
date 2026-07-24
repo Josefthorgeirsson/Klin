@@ -14,6 +14,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/site/container";
 import { IconBadge } from "@/components/site/icon-badge";
+import { Wordmark } from "@/components/site/wordmark";
 
 const TRUST_BADGES = [
   { icon: BadgeCheck, label: "100% ánægjutrygging" },
@@ -113,8 +114,8 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 max-w-lg text-lg leading-relaxed text-klin-ink/70">
               Klín þrífur heimili, fyrirtæki og stofnanir um allt
-              höfuðborgarsvæðið — af alúð, öryggi og smá glettni. Þú slakar á,
-              við sjáum um restina.
+              Suðurland — af alúð, öryggi og smá glettni. Þú slakar á, við
+              sjáum um restina.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Button asChild size="lg">
@@ -139,15 +140,8 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <div className="relative mx-auto aspect-square w-full max-w-md rounded-[2.5rem] bg-klin-pink p-10 shadow-[0_40px_80px_-30px_rgba(209,17,111,0.55)]">
-              <div className="absolute inset-6 rounded-[2rem] border-2 border-dashed border-white/25" />
-              <div className="relative flex h-full flex-col items-center justify-center gap-6 text-center text-white">
-                <span className="font-display text-7xl leading-none">K</span>
-                <Sparkles className="h-10 w-10" aria-hidden="true" />
-                <p className="font-heading text-xl font-bold">
-                  Hreint, einfalt, Klín.
-                </p>
-              </div>
+            <div className="relative mx-auto flex aspect-[16/10] w-full max-w-md items-center justify-center rounded-[2.5rem] bg-klin-pink shadow-[0_40px_80px_-30px_rgba(209,17,111,0.55)]">
+              <Wordmark className="text-6xl text-klin-cream sm:text-7xl" />
             </div>
           </div>
         </Container>
