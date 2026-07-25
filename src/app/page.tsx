@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/card";
 import { Container } from "@/components/site/container";
 import { IconBadge } from "@/components/site/icon-badge";
 import { Wordmark } from "@/components/site/wordmark";
+import AboutUsSection from "@/components/ui/about-us-section";
 
 const SERVICES = [
   {
@@ -74,6 +75,8 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      <AboutUsSection />
     </>
   );
 }
