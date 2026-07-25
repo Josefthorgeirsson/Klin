@@ -46,7 +46,7 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <div className="relative mx-auto flex aspect-[16/10] w-full max-w-md items-center justify-center rounded-[2.5rem] bg-klin-pink shadow-[0_40px_80px_-30px_rgba(220,40,132,0.55)]">
+            <div className="relative mx-auto flex aspect-[16/10] w-full max-w-md items-center justify-center rounded-[2.5rem] bg-klin-pink-logo shadow-[0_40px_80px_-30px_rgba(236,72,153,0.55)]">
               <Wordmark className="text-6xl text-klin-cream sm:text-7xl" />
             </div>
           </div>

@@ -4,11 +4,12 @@
   --background: #fff3f8;
   --foreground: #241019;
 
-  --klin-pink: #dc2884;
+  --klin-pink: #e0339a;
   --klin-pink-bright: #f2168a;
   --klin-pink-dark: #950c53;
   --klin-pink-soft: #fbe4f0;
   --klin-pink-tint: #fff3f8;
+  --klin-pink-logo: #ec4899;
   --klin-ink: #241019;
   --klin-cream: #fffbfd;
 }
@@ -22,6 +23,7 @@
   --color-klin-pink-dark: var(--klin-pink-dark);
   --color-klin-pink-soft: var(--klin-pink-soft);
   --color-klin-pink-tint: var(--klin-pink-tint);
+  --color-klin-pink-logo: var(--klin-pink-logo);
   --color-klin-ink: var(--klin-ink);
   --color-klin-cream: var(--klin-cream);
 
