@@ -12,7 +12,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-klin-pink text-white shadow-[0_8px_24px_-8px_rgba(224,51,154,0.65)] hover:bg-klin-pink-dark hover:-translate-y-0.5 focus-visible:ring-klin-pink",
+          "border border-klin-pink/15 bg-klin-pink-soft text-klin-pink-dark shadow-[0_8px_20px_-12px_rgba(149,12,83,0.45)] hover:-translate-y-0.5 hover:border-klin-pink-dark hover:bg-klin-pink-dark hover:text-white focus-visible:ring-klin-pink-dark",
         outline:
           "border-2 border-klin-pink text-klin-pink bg-transparent hover:bg-klin-pink hover:text-white focus-visible:ring-klin-pink",
         ghost:

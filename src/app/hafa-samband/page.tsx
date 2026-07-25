@@ -61,7 +61,7 @@ export default function ContactPage() {
               >
                 555 5522
               </a>
-              <Button asChild className="mt-8">
+              <Button asChild variant="light" className="mt-8">
                 <a href="tel:5555522">Hringja núna</a>
               </Button>
             </Card>
