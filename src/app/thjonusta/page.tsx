@@ -21,7 +21,6 @@ const CATEGORIES = [
       "Regluleg þrif",
       "Djúphreinsun",
       "Flutningsþrif",
-      "Gluggaþvottur",
       "Stigagangar og sameignir fyrir húsfélög",
     ],
   },
