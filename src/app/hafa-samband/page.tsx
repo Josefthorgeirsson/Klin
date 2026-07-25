@@ -51,7 +51,7 @@ export default function ContactPage() {
       <section className="py-20">
         <Container>
           <div className="grid gap-6 md:grid-cols-2">
-            <Card className="flex flex-col items-start bg-klin-pink text-white">
+            <Card className="flex flex-col items-start bg-klin-pink-medium text-white">
               <IconBadge icon={Phone} variant="soft" className="bg-white/15 text-white" />
               <h2 className="mt-6 font-heading text-2xl font-bold">Hringdu í okkur</h2>
               <p className="mt-2 text-white/80">Fljótlegasta leiðin til að fá tilboð.</p>
