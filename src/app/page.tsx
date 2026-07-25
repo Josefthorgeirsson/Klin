@@ -31,7 +31,7 @@ export default function HomePage() {
       <section>
         <Container className="grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
           <div>
-            <h1 className="font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl lg:text-6xl">
+            <h1 className="font-heading text-3xl leading-tight text-klin-ink sm:text-4xl lg:text-5xl">
               Klín er leiðandi í þrifum fyrir heimili, húsfélög, stofnanir og
               fyrirtæki
             </h1>

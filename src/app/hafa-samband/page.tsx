@@ -38,7 +38,7 @@ export default function ContactPage() {
             <span className="inline-flex items-center rounded-full bg-klin-pink-soft px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-klin-pink">
               Hafa samband
             </span>
-            <h1 className="mt-6 font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl">
+            <h1 className="mt-6 font-heading text-3xl leading-tight text-klin-ink sm:text-4xl">
               Fáðu tilboð
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-klin-ink/70">
