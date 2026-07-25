@@ -13,8 +13,10 @@ export function Logo({ className, dark = false }: { className?: string; dark?: b
     >
       <span
         className={cn(
-          "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-display text-lg transition-transform duration-200 group-hover:-rotate-6",
-          dark ? "bg-white text-klin-pink-logo" : "bg-klin-pink-logo text-white"
+          "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border font-display text-lg transition-transform duration-200 group-hover:-rotate-6",
+          dark
+            ? "border-white/20 bg-white/15 text-white"
+            : "border-klin-pink/10 bg-klin-pink-soft text-klin-pink-dark"
         )}
       >
         K
