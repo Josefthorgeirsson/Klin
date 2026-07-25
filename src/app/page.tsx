@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Building2, Home as HomeIcon, Landmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -29,18 +28,8 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0" aria-hidden="true">
-          <Image
-            src="/team-photo.png"
-            alt=""
-            fill
-            priority
-            className="object-cover opacity-25"
-          />
-          <div className="absolute inset-0 bg-klin-pink-tint/70" />
-        </div>
-        <Container className="relative z-10 grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
+      <section>
+        <Container className="grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
           <div>
             <h1 className="font-heading text-3xl leading-tight text-klin-ink sm:text-4xl lg:text-5xl">
               Klín er leiðandi í þrifum fyrir heimili, húsfélög, stofnanir og
