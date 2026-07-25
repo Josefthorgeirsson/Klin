@@ -32,16 +32,16 @@ const INFO = [
 export default function ContactPage() {
   return (
     <>
-      <section className="bg-klin-pink-tint py-20">
+      <section className="py-20">
         <Container>
           <div className="max-w-2xl">
-            <span className="inline-flex items-center rounded-full bg-klin-pink-soft px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-klin-pink">
+            <span className="inline-flex items-center rounded-full bg-white px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-klin-pink">
               Hafa samband
             </span>
-            <h1 className="mt-6 font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl">
+            <h1 className="mt-6 font-display text-4xl leading-[1.5] text-white sm:text-5xl">
               Fáðu tilboð
             </h1>
-            <p className="mt-6 text-lg leading-relaxed text-klin-ink/70">
+            <p className="mt-6 text-lg leading-relaxed text-white/80">
               Hringdu eða sendu okkur línu — við svörum samdægurs.
             </p>
           </div>
@@ -51,17 +51,17 @@ export default function ContactPage() {
       <section className="py-20">
         <Container>
           <div className="grid gap-6 md:grid-cols-2">
-            <Card className="flex flex-col items-start bg-klin-pink text-white">
-              <IconBadge icon={Phone} variant="soft" className="bg-white/15 text-white" />
-              <h2 className="mt-6 font-heading text-2xl font-bold">Hringdu í okkur</h2>
-              <p className="mt-2 text-white/80">Fljótlegasta leiðin til að fá tilboð.</p>
+            <Card className="flex flex-col items-start">
+              <IconBadge icon={Phone} variant="solid" />
+              <h2 className="mt-6 font-heading text-2xl font-bold text-klin-ink">Hringdu í okkur</h2>
+              <p className="mt-2 text-klin-ink/70">Fljótlegasta leiðin til að fá tilboð.</p>
               <a
                 href="tel:5555522"
-                className="mt-6 font-display text-3xl tracking-tight"
+                className="mt-6 font-display text-3xl tracking-tight text-klin-pink"
               >
                 555 5522
               </a>
-              <Button asChild variant="light" className="mt-8">
+              <Button asChild className="mt-8">
                 <a href="tel:5555522">Hringja núna</a>
               </Button>
             </Card>
