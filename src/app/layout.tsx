@@ -42,7 +42,7 @@ const lora = localFont({
 export const metadata: Metadata = {
   title: "Klín – Allhliða ræstingarþjónusta",
   description:
-    "Klín sér um þrif fyrir heimili, fyrirtæki og stofnanir á Suðurlandi. Áreiðanleg, glaðleg og fagleg ræstingarþjónusta.",
+    "Klín sér um þrif fyrir heimili, fyrirtæki og stofnanir á Höfuðborgarsvæðinu og Suðurlandi. Áreiðanleg, glaðleg og fagleg ræstingarþjónusta.",
 };
 
 export default function RootLayout({

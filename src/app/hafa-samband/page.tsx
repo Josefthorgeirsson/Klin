@@ -8,14 +8,14 @@ import { IconBadge } from "@/components/site/icon-badge";
 export const metadata: Metadata = {
   title: "Hafa samband – Klín",
   description:
-    "Hafðu samband við Klín í síma 555 5522 eða á klin@klin.is og fáðu tilboð í ræstingu heimilis, fyrirtækis eða stofnunar. Þjónustusvæði: Suðurland.",
+    "Hafðu samband við Klín í síma 555 5522 eða á klin@klin.is og fáðu tilboð í ræstingu heimilis, fyrirtækis eða stofnunar. Þjónustusvæði: Höfuðborgarsvæðið og Suðurland.",
 };
 
 const INFO = [
   {
     icon: MapPin,
     title: "Þjónustusvæði",
-    description: "Suðurland",
+    description: "Höfuðborgarsvæðið og Suðurland",
   },
   {
     icon: Clock,

@@ -17,7 +17,7 @@ export function SiteFooter() {
             <Logo />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-klin-ink/70">
               Ræstingarþjónusta fyrir heimili, fyrirtæki og stofnanir á
-              Suðurlandi.
+              Höfuðborgarsvæðinu og Suðurlandi.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 shrink-0" aria-hidden="true" />
-                Suðurland
+                Höfuðborgarsvæðið og Suðurland
               </li>
             </ul>
           </div>

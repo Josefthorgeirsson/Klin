@@ -9,7 +9,7 @@ import { IconBadge } from "@/components/site/icon-badge";
 export const metadata: Metadata = {
   title: "Þjónusta – Klín",
   description:
-    "Ræstingarþjónusta Klín fyrir heimili, fyrirtæki og stofnanir á Suðurlandi.",
+    "Ræstingarþjónusta Klín fyrir heimili, fyrirtæki og stofnanir á Höfuðborgarsvæðinu og Suðurlandi.",
 };
 
 const CATEGORIES = [

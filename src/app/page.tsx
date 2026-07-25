@@ -32,11 +32,12 @@ export default function HomePage() {
         <Container className="grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
           <div>
             <h1 className="font-display text-4xl leading-[1.5] text-klin-ink sm:text-5xl lg:text-6xl">
-              Klín er leiðandi fyrirtæki á Íslandi í þrifum
+              Klín er leiðandi í þrifum fyrir heimili, húsfélög, stofnanir og
+              fyrirtæki
             </h1>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-klin-ink/70">
               Ræstingarþjónusta fyrir heimili, fyrirtæki og stofnanir um allt
-              Suðurland.
+              Höfuðborgarsvæðið og Suðurland.
             </p>
             <div className="mt-8">
               <Button asChild size="lg">
