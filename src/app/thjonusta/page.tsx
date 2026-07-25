@@ -57,7 +57,7 @@ export default function ServicesPage() {
         <Container>
           <div className="grid gap-6 md:grid-cols-3">
             {CATEGORIES.map((category) => (
-              <Card key={category.id} id={category.id} className="scroll-mt-24">
+              <Card key={category.id} id={category.id} className="flex h-full scroll-mt-24 flex-col">
                 <IconBadge icon={category.icon} variant="solid" />
                 <h2 className="mt-6 font-heading text-xl font-bold text-klin-ink">
                   {category.title}
@@ -75,7 +75,7 @@ export default function ServicesPage() {
                     </li>
                   ))}
                 </ul>
-                <Button asChild className="mt-6 w-full">
+                <Button asChild className="mt-6 w-full md:mt-auto">
                   <Link href="/hafa-samband">Fá tilboð</Link>
                 </Button>
               </Card>
