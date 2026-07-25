@@ -17,7 +17,6 @@ const CATEGORIES = [
     id: "heimili",
     icon: HomeIcon,
     title: "Heimili og húsfélög",
-    description: "Regluleg þrif og djúphreinsun fyrir heimilið þitt.",
     items: [
       "Regluleg þrif",
       "Djúphreinsun",
@@ -62,11 +61,6 @@ export default function ServicesPage() {
                 <h2 className="mt-6 font-classic text-xl font-bold text-klin-ink">
                   {category.title}
                 </h2>
-                {category.description && (
-                  <p className="mt-2 text-sm leading-relaxed text-klin-ink/70">
-                    {category.description}
-                  </p>
-                )}
                 <ul className="mt-4 space-y-2">
                   {category.items.map((item) => (
                     <li key={item} className="flex items-start gap-2">
