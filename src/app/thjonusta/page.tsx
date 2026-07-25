@@ -59,7 +59,7 @@ export default function ServicesPage() {
             {CATEGORIES.map((category) => (
               <Card key={category.id} id={category.id} className="flex h-full scroll-mt-24 flex-col">
                 <IconBadge icon={category.icon} variant="solid" />
-                <h2 className="mt-6 font-heading text-xl font-bold text-klin-ink">
+                <h2 className="mt-6 font-classic text-xl font-bold text-klin-ink">
                   {category.title}
                 </h2>
                 {category.description && (

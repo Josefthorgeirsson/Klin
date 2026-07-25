@@ -33,6 +33,7 @@
   --font-heading: var(--font-bricolage);
   --font-sans: var(--font-instrument);
   --font-logo: var(--font-lora);
+  --font-classic: var(--font-crimson);
 }
 
 body {

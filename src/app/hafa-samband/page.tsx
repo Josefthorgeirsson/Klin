@@ -38,7 +38,7 @@ export default function ContactPage() {
             <span className="inline-flex items-center rounded-full bg-klin-pink-soft px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-klin-pink">
               Hafa samband
             </span>
-            <h1 className="mt-6 font-heading text-3xl leading-tight text-klin-ink sm:text-4xl">
+            <h1 className="mt-6 font-classic text-3xl leading-tight text-klin-ink sm:text-4xl">
               Fáðu tilboð
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-klin-ink/70">
@@ -53,7 +53,7 @@ export default function ContactPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <Card className="flex flex-col items-start bg-klin-pink-medium text-white">
               <IconBadge icon={Phone} variant="soft" className="bg-white/15 text-white" />
-              <h2 className="mt-6 font-heading text-2xl font-bold">Hringdu í okkur</h2>
+              <h2 className="mt-6 font-classic text-2xl font-bold">Hringdu í okkur</h2>
               <p className="mt-2 text-white/80">Fljótlegasta leiðin til að fá tilboð.</p>
               <a
                 href="tel:5555522"
@@ -68,7 +68,7 @@ export default function ContactPage() {
 
             <Card className="flex flex-col items-start">
               <IconBadge icon={Mail} />
-              <h2 className="mt-6 font-heading text-2xl font-bold text-klin-ink">
+              <h2 className="mt-6 font-classic text-2xl font-bold text-klin-ink">
                 Sendu tölvupóst
               </h2>
               <p className="mt-2 text-klin-ink/70">
@@ -93,7 +93,7 @@ export default function ContactPage() {
             {INFO.map((item) => (
               <Card key={item.title} className="shadow-none">
                 <IconBadge icon={item.icon} variant="solid" />
-                <h3 className="mt-5 font-heading text-base font-bold text-klin-ink">
+                <h3 className="mt-5 font-classic text-base font-bold text-klin-ink">
                   {item.title}
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-klin-ink/70">

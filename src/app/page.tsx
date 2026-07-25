@@ -31,7 +31,7 @@ export default function HomePage() {
       <section>
         <Container className="grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
           <div>
-            <h1 className="font-heading text-3xl leading-tight text-klin-ink sm:text-4xl lg:text-5xl">
+            <h1 className="font-classic text-3xl leading-tight text-klin-ink sm:text-4xl lg:text-5xl">
               Klín er leiðandi í þrifum fyrir heimili, húsfélög, stofnanir og
               fyrirtæki
             </h1>
@@ -61,7 +61,7 @@ export default function HomePage() {
             {SERVICES.map((service) => (
               <Card key={service.title} className="flex flex-col items-start">
                 <IconBadge icon={service.icon} />
-                <h3 className="mt-6 font-heading text-xl font-bold text-klin-ink">
+                <h3 className="mt-6 font-classic text-xl font-bold text-klin-ink">
                   {service.title}
                 </h3>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-klin-ink/70">

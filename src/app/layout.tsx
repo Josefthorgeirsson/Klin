@@ -39,6 +39,15 @@ const lora = localFont({
   display: "swap",
 });
 
+const crimson = localFont({
+  src: [
+    { path: "./fonts/CrimsonPro-Regular.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/CrimsonPro-Bold.ttf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-crimson",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Klín – Allhliða ræstingarþjónusta",
   description:
@@ -53,7 +62,7 @@ export default function RootLayout({
   return (
     <html
       lang="is"
-      className={`${boldonse.variable} ${bricolage.variable} ${instrument.variable} ${lora.variable} h-full antialiased`}
+      className={`${boldonse.variable} ${bricolage.variable} ${instrument.variable} ${lora.variable} ${crimson.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <SiteHeader />
